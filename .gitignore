@@ -1,3 +1,14 @@
+# Adicionar arquivos e diretórios que não devem ser enviados para o repositório
+# Referencia: https://git-scm.com/docs/gitignore
+certificado_aiven/
+certificado_aiven/*
+
+*.cred
+*.pem
+.cred
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
